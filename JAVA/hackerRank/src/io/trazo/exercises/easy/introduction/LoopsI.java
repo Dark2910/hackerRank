@@ -11,7 +11,7 @@ public class LoopsI {
     int value = Integer.parseInt(bufferedReader.readLine().trim());
     int result = 0;
 
-    for(int i = 1; i<=10; i++){
+    for (int i = 1; i <= 10; i++) {
       result = value * i;
       System.out.printf("%s x %s = %s\n", value, i, result);
     }

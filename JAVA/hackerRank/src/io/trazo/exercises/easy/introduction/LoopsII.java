@@ -32,15 +32,15 @@ public class LoopsII {
 //            .toList();
 
     List<Integer[]> data = IntStream.range(0, inputLoops)
-                    .mapToObj(i -> {
-                      try{
-                        return Arrays.stream(bufferedReader.readLine().split(" "))
-                                .map(Integer::parseInt)
-                                .toArray(Integer[]::new);
-                      }catch (Exception e){
-                        return new Integer[0];
-                      }
-                    }).toList();
+            .mapToObj(i -> {
+              try {
+                return Arrays.stream(bufferedReader.readLine().split(" "))
+                        .map(Integer::parseInt)
+                        .toArray(Integer[]::new);
+              } catch (Exception e) {
+                return new Integer[0];
+              }
+            }).toList();
 
     printData(data);
   }

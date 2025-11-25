@@ -3,7 +3,7 @@ package io.trazo.exercises.easy.introduction;
 import java.util.Scanner;
 
 public class IfElse {
-  public static void main(String[] args){
+  public static void main(String[] args) {
     // even -> par
     // odd -> impar
 
@@ -12,18 +12,18 @@ public class IfElse {
     int number = scanner.nextInt();
     int remainder = number % 2;
 
-    if(remainder == 0){
+    if (remainder == 0) {
       // even
-      if(number >= 2 && number <= 5){
+      if (number >= 2 && number <= 5) {
         System.out.print("Not Weird");
       }
-      if(number >= 6 && number <= 20){
+      if (number >= 6 && number <= 20) {
         System.out.print("Weird");
       }
-      if(number > 20){
+      if (number > 20) {
         System.out.print("Not Weird");
       }
-    }else {
+    } else {
       // odd
       System.out.print("Weird");
     }
