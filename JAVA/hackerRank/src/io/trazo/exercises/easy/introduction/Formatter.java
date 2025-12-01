@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-public class formatter {
+public class Formatter {
   public static void main(String[] args) {
     Double amount = Double.parseDouble(getData());
 

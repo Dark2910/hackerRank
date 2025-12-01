@@ -3,7 +3,7 @@ package io.trazo.exercises.easy.string;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class anagrama {
+public class Anagrama {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
 

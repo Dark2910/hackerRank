@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-public class tokens {
+public class Tokens {
   public static void main(String[] args) {
     String regex = "[^A-Za-z]+";
     Pattern pattern = Pattern.compile(regex);
