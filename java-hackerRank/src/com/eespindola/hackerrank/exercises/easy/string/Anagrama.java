@@ -10,16 +10,17 @@ public class Anagrama {
     String inputA = scanner.nextLine().toLowerCase();
     String inputB = scanner.nextLine().toLowerCase();
 
-    char[] charsA = inputA.toCharArray();
-    char[] charsB = inputB.toCharArray();
-
-    Arrays.sort(charsA);
-    Arrays.sort(charsB);
-
-    if(Arrays.equals(charsA, charsB)){
-      System.out.println("Anagrams");
-    } else {
+    if(inputA.length() != inputB.length()){
       System.out.println("Not Anagrams");
     }
+
+    char[] dataA = inputA.toCharArray();
+    char[] dataB = inputB.toCharArray();
+
+    Arrays.sort(dataA);
+    Arrays.sort(dataB);
+
+    String message = Objects.equals(dataA, dataB)? "Anagrams" : "Not Anagrams";
+    System.out.println(message);
   }
 }
