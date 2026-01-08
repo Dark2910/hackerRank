@@ -1,4 +1,4 @@
-package io.trazo.exercises.easy.introduction;
+package com.eespindola.hackerrank.exercises.easy.introduction;
 
 public class WelcomeToJava {
   public static void main(String[] args) {

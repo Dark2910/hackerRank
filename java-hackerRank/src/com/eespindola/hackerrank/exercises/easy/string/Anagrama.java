@@ -1,4 +1,4 @@
-package io.trazo.exercises.easy.string;
+package com.eespindola.hackerrank.exercises.easy.string;
 
 import java.util.Arrays;
 import java.util.Scanner;

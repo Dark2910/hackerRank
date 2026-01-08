@@ -1,4 +1,4 @@
-package io.trazo.exercises.easy.introduction;
+package com.eespindola.hackerrank.exercises.easy.introduction;
 
 import java.util.ArrayList;
 import java.util.List;
